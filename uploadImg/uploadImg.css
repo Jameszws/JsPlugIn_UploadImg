@@ -1,0 +1,26 @@
+﻿
+.spanarea {
+    width: 77px;
+    height: 23px;
+    position: relative;
+    display: block;
+}
+
+.btnfile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.uploadfile
+{
+    filter: alpha(opacity=0); /*IE滤镜，透明度0*/
+    -moz-opacity: 0; /*Firefox私有，透明度0*/
+    opacity: 0; /*其他，透明度0*/
+    height: 22px;
+    width: 75px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
